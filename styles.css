@@ -489,7 +489,7 @@ p {
     padding: 10px 20px;
     margin: 5px;
     color: #fff;
-    background-color: #007bff;
+    background-color: rgb(253, 122, 144);
     border-radius: 5px;
     text-decoration: none;
     font-size: 0.9em;
@@ -497,8 +497,9 @@ p {
 }
 
 .project-btn:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
     transform: scale(1.05);
+    color: #ff01b3;
 }
 
 
@@ -687,8 +688,7 @@ p {
 .contact-whatsapp {
     display: flex;
     align-items: center;
-    color: #25D366;
-    /* Cor verde do WhatsApp */
+    color: #ff01b3;
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: bold;
@@ -700,7 +700,7 @@ p {
 }
 
 .contact-whatsapp:hover {
-    color: #128C7E;
+    color: #ffffff;
     /* Cor verde escuro do WhatsApp para hover */
 }
 
