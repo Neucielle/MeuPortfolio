@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Neucielle Quadros</title>
+</head>
+
+<body>
+    <header>
+        <a href="#quemsou">
+            <h1>Portf<span class="olio">ólio</span></h1>
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quemsou">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eu">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formacao">Formação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#softs">Softs e Hards Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contato</a>
+                        </li>
+                    </ul>
+                    <div class="navbar">
+                        <a href="#" class="audio-icon" id="audio-toggle">
+                            <i class="fas fa-music"></i>
+                        </a>
+                        <audio id="audio-player">
+                            <source src="assets/audio/Journey - Don't stop believin (TRADUÇÃO~LEGENDADO) (256).mp3"
+                                type="audio/mpeg">
+                            Seu navegador não suporta o elemento de áudio.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="star-container"></div>
+    <section id="quemsou">
+        <div class="led-container">
+            <div class="led-text" id="led-text">
+                <span class="letter">Neucielle Quadros</span>
+            </div>
+            <p>Full-Stack Developer & Data Analytics</p>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/Neucielle" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/neucielle-quadros" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <div class="download-section">
+            <a href="assets/img/FullstackJr-Neucielle.pdf" download="Curriculo_Neucielle_Quadros.pdf" class="download-btn">
+                Download Currículo
+            </a>
+            <a href="#" class="view-btn">
+                Visualizar Currículo
+            </a>
+        </div>
+
+        <!-- Modal -->
+        <div id="curriculo-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <iframe src="assets/img/FullstackJr-Neucielle.pdf" type="application/pdf" width="100%"
+                    height="100%"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" id="eu">
+        <div class="Neucielle">
+            <img src="assets/img/InShot_20240513_011629092.jpg" alt="Imagem de Neucielle" class="responsive-image">
+        </div>
+        <div class="text-content">
+            <h1 class="quemsou1">Hello World!</h1>
+            <p class="text">Sou uma paranaense apaixonada por tecnologia e games. Minha jornada na programação começou
+                com a curiosidade sobre como os sites ganham vida. Desde então, tenho me dedicado a aprimorar minhas
+                habilidades para acompanhar as rápidas mudanças da indústria. Atualmente, sou estudante de Análise e
+                Desenvolvimento de Sistemas na Unifatecie e estou realizando cursos especializados em tecnologias
+                Full-Stack e Dados.</p>
+        </div>
+    </div>
+
+    <!-- Seção de Formação -->
+    <div class="container">
+        <div class="education-content">
+            <h2 class="education-title" id="formacao">Formação</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-icon"></div>
+                    <div class="education-detail">
+                        <h3 class="education-degree"> ➛ Graduação em Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="education-description">Universidade Unifatecie - Formação em 12/2024</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon"></div>
+                    <div class="education-detail">
+                        <h3 class="education-degree">➛ Trilha Full Stack Developer Jr</h3>
+                        <p class="education-description">+PraTi (Codifica) - Conclusão em 03/2025</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon"></div>
+                    <div class="education-detail">
+                        <h3 class="education-degree">➛ Análise de Dados e Dashboards</h3>
+                        <p class="education-description">SoulCode Academy + Martech Academy - Conluído em 06/2024</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon"></div>
+                    <div class="education-detail">
+                        <h3 class="education-degree">➛ Análise de Dados</h3>
+                        <p class="education-description">Cubos Academy - Cooncluído em 06/2024</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon"></div>
+                    <div class="education-detail">
+                        <h3 class="education-degree">➛ Bootcamp Full Stack Developer</h3>
+                        <p class="education-description">Recode Pro - Concluído em 03/2024</p>
+                    </div>
+                </div>
+                <!-- Adicione mais itens de formação aqui -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seção de Softs e Hards Skills -->
+    <div class="container" id="softs">
+        <div class="skills-content">
+            <h2 class="skills-title">Softs e Hards Skills</h2>
+            <div class="skills-section">
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Hard Skills</h3>
+                    <div class="skills-icons">
+                        <img src="assets/img/java.png" alt="Java" class="skill-icon">
+                        <img src="assets/img/python.png" alt="Python" class="skill-icon">
+                        <img src="assets/img/script-java.png" alt="JavaScript" class="skill-icon">
+                        <img src="assets/img/html.png" alt="HTML" class="skill-icon">
+                        <img src="assets/img/css-3.png" alt="CSS" class="skill-icon">
+                        <img src="assets/img/bootstrap (2).png" alt="Bootstrap" class="skill-icon">
+                        <img src="assets/img/Pandas (2).png" alt="Pandas" class="skill-icon">
+                        <img src="assets/img/PowerBi.png" alt="Power BI" class="skill-icon">
+                        <img src="assets/img/looker.png" alt="Looker" class="skill-icon">
+                        <img src="assets/img/BD.png" alt="Dados" class="skill-icon">
+                        <img src="assets/img/canva.png" alt="Canva Design" class="skill-icon">
+                        <img src="assets/img/git.png" alt="Git" class="skill-icon">
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3 class="skills-group-title">Soft Skills</h3>
+                    <ul class="soft-skills-list">
+                        <li><strong> Gestão de tempo</strong></li>
+                        <li><strong>Autogestão de atividades</strong> </li>
+                        <li> <strong>Comunicação</strong></li>
+                        <li><strong>Flexibilidade</strong></li>
+                        <li><strong>Liderança</strong></li>
+                        <li><strong>Resolução de problemas</strong></li>
+                        <li><strong>Empatia e inteligência emocional</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Seção de Projetos -->
+    <div class="container" id="projetos">
+        <div class="projects-content">
+            <h2 class="projects-title">Projetos</h2>
+            <div class="projects-cards">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/Vale.png" alt="Projeto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Vale das Estrelas</h3>
+                        <p class="project-description"> Pagina Web de uma agencia de viagens,aplicando o CRUD cadastro
+                            de clientes.</p>
+                        <div class="project-links">
+                            <a href="https://valedasestrelas.netlify.app" class="project-btn" target="_blank">Deploy</a>
+                            <a href="https://github.com/Neucielle/PrimeiraEntregaRecode" class="project-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/rehab.png" alt="Projeto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Rehab</h3>
+                        <p class="project-description">Desenvolvimento de um site dedicado à inclusão social.</p>
+                        <div class="project-links">
+                            <a href="https://springmvc-rehab.onrender.com/index" class="project-btn"
+                                target="_blank">Deploy</a>
+                            <a href="https://github.com/Squa17/Rehab-Final" class="project-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/Parallax.png" alt="Projeto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Parallax</h3>
+                        <p class="project-description">Projeto desenvolvido para demonstrar a técnica de efeito
+                            parallax, utilizando HTML5 e CSS3.</p>
+                        <div class="project-links">
+                            <a href="https://feriashoje.netlify.app" class="project-btn" target="_blank">Deploy</a>
+                            <a href="https://github.com/Neucielle/EfeitoParallax" class="project-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/Emprega.png" alt="Projeto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Emprega.Elas</h3>
+                        <p class="project-description">desenvolvimento de um site dedicado à inclusão social ODS5.</p>
+                        <div class="project-links">
+                            <a href="https://empregaelas.netlify.app" class="project-btn" target="_blank">Deploy</a>
+                            <a href="https://github.com/hackingrio/hacking-her2024-equipe-42" class="project-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/Data.png" alt="Projeto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Data Mavens</h3>
+                        <p class="project-description">Desenvolvimento completo de um projeto de análise de dados,
+                            Plataforma Power Bi.</p>
+                        <div class="project-links">
+                            <a href="https://app.powerbi.com/" class="project-btn" target="_blank">Deploy</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/android.png" alt="Projeto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Android</h3>
+                        <p class="project-description">Projeto feito em aula, curiosidades de tecnologia ANDROID.</p>
+                        <div class="project-links">
+                            <a href="https://projetoandroid1.netlify.app" class="project-btn" target="_blank">Deploy</a>
+                            <a href="https://github.com/Neucielle/projeto-android" class="project-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Seção de Contato -->
+    <div class="container" id="contatos">
+        <div class="contact-content">
+            <h2 class="contact-title">Entre em Contato</h2>
+            <p class="contact-description">Se você quiser entrar em contato para discutir oportunidades, projetos ou
+                qualquer outra coisa, sinta-se à vontade para me enviar um e-mail ou mensagem via WhatsApp!</p>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="contact-submit-btn">Enviar</button>
+            </form>
+            <a href="https://wa.me/5542984425394" class="contact-whatsapp">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <blockquote class="highlighted-quote">
+                <p>“Programação não é sobre o que você sabe; é sobre o que você pode descobrir.”</p>
+                <p>- Chris Pine</p>
+            </blockquote>
+            <p>&copy; 2024 Criado por Neucielle Quadros. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://github.com/Neucielle" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/neucielle-quadros" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
